@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf63e5a7-e824-4912-afcd-e78d3351688e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinica-medica-agendamento/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/clinica-medica-agendamento/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="bf63e5a7-e824-4912-afcd-e78d3351688e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,16 +24,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;AlexandreFVieira&quot;
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "AlexandreFVieira"
   }
-}</component>
+}]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
-    "url": "https://github.com/AlexandreFVieira/clinica-medica-micro.git",
-    "accountId": "ec711810-22a7-45a0-adfd-81ef29ec6726"
+    "url": "https://github.com/MyProjectsImepac/clinica-medica-micro.git",
+    "accountId": "83e26782-631d-49b0-a38d-f722ae83100f"
   }
 }]]></component>
   <component name="MarkdownSettingsMigration">
@@ -57,19 +53,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "JUnit.EspecialidadeServiceTest.testAdicionarEspecialidade.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.ClinicaMedicaAgendamentoApp.executor": "Run",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/ProjetoIntellij/clinica-medica-micro",
+    "last_opened_file_path": "C:/Users/Alexandre/Desktop/clinica-medica-micro",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -104,7 +98,11 @@
       <command value="mvn clean install -U" />
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ClinicaMedicaAgendamentoApp">
+  <component name="RunManager" selected="JUnit.EspecialidadeServiceTest.testAdicionarEspecialidade">
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml" />
+      <method v="2" />
+    </configuration>
     <configuration name="EspecialidadeServiceTest.testAdicionarEspecialidade" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="clinica-medica-comum" />
       <extension name="coverage">
@@ -145,25 +143,6 @@
         <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="clean install" />
       </method>
     </configuration>
-    <configuration name="ClinicaMedicaAgendamentoApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="clinica-medica-agendamento" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="br.edu.imepac.agendamento.ClinicaMedicaAgendamentoApp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.edu.imepac.agendamento.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
-      <deployment type="docker-compose.yml">
-        <settings />
-      </deployment>
-      <method v="2" />
-    </configuration>
     <configuration name="clinica-administrativo.mysql: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
       <deployment type="docker-compose.yml">
         <settings>
@@ -186,26 +165,13 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Docker.clinica-administrativo.mysql: Compose Deployment" />
-      <item itemvalue="Docker.containers: Compose Deployment" />
       <item itemvalue="JUnit.EspecialidadeServiceTest.testAdicionarEspecialidade" />
-      <item itemvalue="Spring Boot.ClinicaMedicaAdministrativoApp" />
-      <item itemvalue="Spring Boot.ClinicaMedicaAgendamentoApp" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ClinicaMedicaAgendamentoApp" />
         <item itemvalue="JUnit.EspecialidadeServiceTest.testAdicionarEspecialidade" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.387" />
-        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.387" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -243,7 +209,6 @@
       <workItem from="1750198484047" duration="100000" />
       <workItem from="1750257242046" duration="942000" />
       <workItem from="1750266715732" duration="8639000" />
-      <workItem from="1750610781227" duration="7325000" />
     </task>
     <servers />
   </component>
@@ -255,7 +220,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/clinica-medica-administrativo/src/main/java/br/edu/imepac/administrativo/utils/AuthorizationFilter.java</url>
-          <line>39</line>
+          <line>31</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
