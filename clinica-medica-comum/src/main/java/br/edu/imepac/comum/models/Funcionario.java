@@ -21,6 +21,7 @@ public class Funcionario {
 
     private String usuario;
     private String senha;
+
     private String nome;
     private Integer idade;
     private char sexo;
@@ -38,4 +39,7 @@ public class Funcionario {
 
     @Enumerated(EnumType.STRING)
     private EnumTipoFuncionario tipoFuncionario;
+
+    @OneToOne
+    private Perfil perfil;
 }

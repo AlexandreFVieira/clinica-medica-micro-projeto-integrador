@@ -12,14 +12,14 @@ import java.util.List;
 @Slf4j // **@Slf4j**: Gera automaticamente um logger para a classe, permitindo registrar mensagens de log.
 @RestController // **@RestController**: Indica que esta classe é um controlador REST, retornando dados diretamente como resposta (ex.: JSON).
 @RequestMapping("/especialidades") // **@RequestMapping**: Define o endpoint base para todos os métodos desta classe.
-public class EspecialdadeController {
+public class EspecialidadeController {
 
     // **Injeção de Dependência**: O serviço `EspecialidadeService` é injetado no controlador
     // para que os métodos do serviço possam ser utilizados para manipular os dados.
     private final EspecialidadeService especialidadeService;
 
     // **Construtor**: O controlador recebe o serviço como dependência através do construtor.
-    public EspecialdadeController(EspecialidadeService especialidadeService) {
+    public EspecialidadeController(EspecialidadeService especialidadeService) {
         this.especialidadeService = especialidadeService;
     }
 

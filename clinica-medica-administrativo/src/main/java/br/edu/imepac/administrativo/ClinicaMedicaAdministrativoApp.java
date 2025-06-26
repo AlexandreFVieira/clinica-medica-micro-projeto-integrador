@@ -6,7 +6,10 @@ import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication(
-        scanBasePackages = {"br.edu.imepac"}
+        scanBasePackages = {
+                "br.edu.imepac",
+                "br.edu.imepac.administrativo",
+        }
 )
 @EnableJpaRepositories(basePackages = {"br.edu.imepac.comum.repositories"})
 @EntityScan(basePackages = {"br.edu.imepac.comum.models"})

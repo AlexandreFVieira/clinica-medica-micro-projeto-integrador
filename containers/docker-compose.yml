@@ -6,7 +6,7 @@ services:
       MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
       MYSQL_DATABASE: clinica_medica
     ports:
-      - "3306:3306"
+      - "4040:3306"
     volumes:
       - mysql_data:/var/lib/mysql
 

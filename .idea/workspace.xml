@@ -5,18 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf63e5a7-e824-4912-afcd-e78d3351688e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clinica-medica-administrativo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/clinica-medica-administrativo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinica-medica-administrativo/src/main/java/br/edu/imepac/administrativo/config/ConfigModelMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/clinica-medica-administrativo/src/main/java/br/edu/imepac/administrativo/config/ConfigModelMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinica-medica-administrativo/src/main/java/br/edu/imepac/administrativo/controllers/EspecialdadeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/clinica-medica-administrativo/src/main/java/br/edu/imepac/administrativo/controllers/EspecialdadeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica-medica-administrativo/src/main/java/br/edu/imepac/administrativo/ClinicaMedicaAdministrativoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/clinica-medica-administrativo/src/main/java/br/edu/imepac/administrativo/ClinicaMedicaAdministrativoApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica-medica-administrativo/src/main/java/br/edu/imepac/administrativo/controllers/EspecialdadeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/clinica-medica-administrativo/src/main/java/br/edu/imepac/administrativo/controllers/EspecialidadeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clinica-medica-administrativo/src/main/java/br/edu/imepac/administrativo/exception/ClinicaMedicaHandleExceptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/clinica-medica-administrativo/src/main/java/br/edu/imepac/administrativo/exception/ClinicaMedicaHandleExceptions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clinica-medica-administrativo/src/main/java/br/edu/imepac/administrativo/utils/AuthorizationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/clinica-medica-administrativo/src/main/java/br/edu/imepac/administrativo/utils/AuthorizationFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clinica-medica-administrativo/src/main/resources/application-local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/clinica-medica-administrativo/src/main/resources/application-local.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clinica-medica-administrativo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/clinica-medica-administrativo/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinica-medica-comum/src/main/java/br/edu/imepac/comum/services/EspecialidadeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/clinica-medica-comum/src/main/java/br/edu/imepac/comum/services/EspecialidadeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinica-medica-comum/src/test/java/br/edu/imepac/comum/services/EspecialidadeServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/clinica-medica-comum/src/test/java/br/edu/imepac/comum/services/EspecialidadeServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica-medica-administrativo/src/main/resources/db/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/clinica-medica-administrativo/src/main/resources/db/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica-medica-comum/src/main/java/br/edu/imepac/comum/models/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/clinica-medica-comum/src/main/java/br/edu/imepac/comum/models/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica-medica-comum/src/main/java/br/edu/imepac/comum/services/PerfilService.java" beforeDir="false" afterPath="$PROJECT_DIR$/clinica-medica-comum/src/main/java/br/edu/imepac/comum/services/PerfilService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/containers/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/containers/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,30 +53,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ehf_v/projetos/clinica-medica/clinica-medica-administrativo/src/main/resources/application-local.properties&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.47586206&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "C:/Users/ehf_v/projetos/clinica-medica/clinica-medica-administrativo/src/main/resources/application-local.properties",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.47586206",
+    "settings.editor.selected.configurable": "File.Encoding",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="br.edu.imepac.comum.exceptions" />
@@ -89,6 +95,10 @@
       <recent name="C:\Users\ehf_v\projetos\clinica-medica\clinica-medica-administrativo\src\main\resources\database" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.edu.imepac.administrativo.exception" />
+      <recent name="br.edu.imepac.comum.services" />
+      <recent name="br.edu.imepac.comum.dtos.perfil" />
+      <recent name="br.edu.imepac.administrativo.controllers" />
       <recent name="br.edu.imepac.comum.repositories" />
     </key>
   </component>
@@ -140,7 +150,9 @@
       </method>
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
-      <deployment type="docker-compose.yml" />
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
       <method v="2" />
     </configuration>
     <configuration name="clinica-administrativo.mysql: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
@@ -164,7 +176,21 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <configuration name="containers.mysql: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="mysql" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="containers/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <list>
+      <item itemvalue="Docker.containers.mysql: Compose Deployment" />
       <item itemvalue="Docker.clinica-administrativo.mysql: Compose Deployment" />
       <item itemvalue="Docker.containers: Compose Deployment" />
       <item itemvalue="JUnit.EspecialidadeServiceTest.testAdicionarEspecialidade" />
@@ -173,6 +199,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.ClinicaMedicaAdministrativoApp" />
+        <item itemvalue="Docker.containers.mysql: Compose Deployment" />
         <item itemvalue="Docker.clinica-administrativo.mysql: Compose Deployment" />
         <item itemvalue="JUnit.EspecialidadeServiceTest.testAdicionarEspecialidade" />
         <item itemvalue="Docker.containers: Compose Deployment" />
@@ -214,23 +241,15 @@
       <workItem from="1750119645015" duration="4328000" />
       <workItem from="1750198484047" duration="100000" />
       <workItem from="1750257242046" duration="942000" />
-      <workItem from="1750266715732" duration="8639000" />
+      <workItem from="1750266715732" duration="11389000" />
+      <workItem from="1750310635429" duration="18884000" />
+      <workItem from="1750614669744" duration="3948000" />
+      <workItem from="1750810414592" duration="10535000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/clinica-medica-administrativo/src/main/java/br/edu/imepac/administrativo/utils/AuthorizationFilter.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
