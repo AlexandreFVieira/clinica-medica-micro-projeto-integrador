@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf63e5a7-e824-4912-afcd-e78d3351688e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinica-medica-administrativo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/clinica-medica-administrativo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinica-medica-administrativo/src/main/java/br/edu/imepac/administrativo/ClinicaMedicaAdministrativoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/clinica-medica-administrativo/src/main/java/br/edu/imepac/administrativo/ClinicaMedicaAdministrativoApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinica-medica-administrativo/src/main/java/br/edu/imepac/administrativo/controllers/EspecialdadeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/clinica-medica-administrativo/src/main/java/br/edu/imepac/administrativo/controllers/EspecialidadeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinica-medica-administrativo/src/main/java/br/edu/imepac/administrativo/exception/ClinicaMedicaHandleExceptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/clinica-medica-administrativo/src/main/java/br/edu/imepac/administrativo/exception/ClinicaMedicaHandleExceptions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinica-medica-administrativo/src/main/java/br/edu/imepac/administrativo/utils/AuthorizationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/clinica-medica-administrativo/src/main/java/br/edu/imepac/administrativo/utils/AuthorizationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinica-medica-administrativo/src/main/resources/application-local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/clinica-medica-administrativo/src/main/resources/application-local.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinica-medica-administrativo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/clinica-medica-administrativo/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinica-medica-administrativo/src/main/resources/db/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/clinica-medica-administrativo/src/main/resources/db/data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinica-medica-comum/src/main/java/br/edu/imepac/comum/models/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/clinica-medica-comum/src/main/java/br/edu/imepac/comum/models/Funcionario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinica-medica-comum/src/main/java/br/edu/imepac/comum/services/PerfilService.java" beforeDir="false" afterPath="$PROJECT_DIR$/clinica-medica-comum/src/main/java/br/edu/imepac/comum/services/PerfilService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/containers/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/containers/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -55,16 +44,21 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Maven.clinica-medica [compile].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.ClinicaMedicaAdministrativoApp.executor": "Run",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "elias",
+    "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/ehf_v/projetos/clinica-medica/clinica-medica-administrativo/src/main/resources/application-local.properties",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/elias/OneDrive/Área de Trabalho/clinica-medica-micro-projeto-integrador",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -206,6 +200,14 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -245,6 +247,7 @@
       <workItem from="1750310635429" duration="18884000" />
       <workItem from="1750614669744" duration="3948000" />
       <workItem from="1750810414592" duration="10535000" />
+      <workItem from="1750945332871" duration="8589000" />
     </task>
     <servers />
   </component>
