@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bf63e5a7-e824-4912-afcd-e78d3351688e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica-medica-comum/src/main/java/br/edu/imepac/comum/services/PacienteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/clinica-medica-comum/src/main/java/br/edu/imepac/comum/services/PacienteService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +45,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Maven.clinica-medica [clean,install].executor": "Run",
     "Maven.clinica-medica [compile].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
@@ -247,7 +249,7 @@
       <workItem from="1750310635429" duration="18884000" />
       <workItem from="1750614669744" duration="3948000" />
       <workItem from="1750810414592" duration="10535000" />
-      <workItem from="1750945332871" duration="8589000" />
+      <workItem from="1750945332871" duration="11953000" />
     </task>
     <servers />
   </component>

@@ -4,11 +4,9 @@ package br.edu.imepac.comum.services;
 import br.edu.imepac.comum.dtos.paciente.PacienteDto;
 import br.edu.imepac.comum.dtos.paciente.PacienteRequest;
 import br.edu.imepac.comum.models.Paciente;
-import br.edu.imepac.comum.repositories.FuncionarioRepository;
 import br.edu.imepac.comum.repositories.PacienteRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.modelmapper.ModelMapper;
-import org.modelmapper.TypeToken;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -17,7 +15,7 @@ import java.util.List;
 @Service
 public class PacienteService {
 
-    private final ModelMapper modelMapper;
+    private final ModelMapper modelMapper;w
     private final PacienteRepository pacienteRepository;
 
     public PacienteService(ModelMapper modelMapper, PacienteRepository pacienteRepository) {
