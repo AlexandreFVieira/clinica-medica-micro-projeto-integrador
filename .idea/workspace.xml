@@ -5,12 +5,26 @@
   </component>
   <component name="ChangeListManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <list default="true" id="bf63e5a7-e824-4912-afcd-e78d3351688e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clinica-medica-comum/src/main/java/br/edu/imepac/comum/services/PacienteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/clinica-medica-comum/src/main/java/br/edu/imepac/comum/services/PacienteService.java" afterDir="false" />
     </list>
 =======
     <list default="true" id="bf63e5a7-e824-4912-afcd-e78d3351688e" name="Changes" comment="" />
+>>>>>>> main
+=======
+    <list default="true" id="bf63e5a7-e824-4912-afcd-e78d3351688e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/clinica-medica-atendimento/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinica-medica-atendimento/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinica-medica-atendimento/target/clinica-medica-atendimento-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinica-medica-atendimento/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinica-medica-atendimento/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinica-medica-atendimento/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinica-medica-atendimento/target/surefire-reports/TEST-org.example.AppTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinica-medica-atendimento/target/surefire-reports/org.example.AppTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinica-medica-atendimento/target/test-classes/org/example/AppTest.class" afterDir="false" />
+    </list>
 >>>>>>> main
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +44,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/clinica-medica-atendimento" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -48,16 +62,22 @@
     <option name="showLibraryContents" value="true" />
   </component>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Maven.clinica-medica [clean,install].executor": "Run",
     "Maven.clinica-medica [compile].executor": "Run",
+=======
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+>>>>>>> main
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+<<<<<<< HEAD
     "RunOnceActivity.git.unshallow": "true",
     "Spring Boot.ClinicaMedicaAdministrativoApp.executor": "Run",
     "WebServerToolWindowFactoryState": "false",
@@ -66,6 +86,12 @@
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/elias/OneDrive/Área de Trabalho/clinica-medica-micro-projeto-integrador",
+=======
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "C:/Users/ehf_v/projetos/clinica-medica/clinica-medica-administrativo/src/main/resources/application-local.properties",
+>>>>>>> main
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -76,6 +102,7 @@
     "project.structure.side.proportion": "0.47586206",
     "settings.editor.selected.configurable": "File.Encoding",
     "vue.rearranger.settings.migration": "true"
+<<<<<<< HEAD
 =======
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
@@ -100,13 +127,15 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
 >>>>>>> main
+=======
+>>>>>>> main
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="br.edu.imepac.comum.exceptions" />
