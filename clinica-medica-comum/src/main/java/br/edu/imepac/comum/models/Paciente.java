@@ -34,4 +34,6 @@ public class Paciente {
     private String email;
     private LocalDate dataNascimento;
 
+        @OneToOne
+        private Perfil perfil;
 }
