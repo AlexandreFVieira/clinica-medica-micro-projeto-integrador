@@ -1,4 +1,4 @@
-package br.edu.imepac.agendamento.config;
+package br.edu.imepac.atendimento.config;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.context.annotation.Bean;
