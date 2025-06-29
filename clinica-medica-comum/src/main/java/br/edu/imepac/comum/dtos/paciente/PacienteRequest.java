@@ -1,29 +1,18 @@
-package br.edu.imepac.comum.models;
+package br.edu.imepac.comum.dtos.paciente;
 
-import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
 import java.time.LocalDate;
 
-@Entity
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(name = "pacientes")
-
-public class Paciente {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id;
-
+public class PacienteRequest {
     private String nome;
     private Integer idade;
     private char sexo;
-
     private String cpf;
-
     private String rua;
     private String numero;
     private String complemento;
@@ -33,7 +22,4 @@ public class Paciente {
     private String contato;
     private String email;
     private LocalDate dataNascimento;
-
-        @OneToOne
-        private Perfil perfil;
 }
