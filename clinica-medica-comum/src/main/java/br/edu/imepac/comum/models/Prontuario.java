@@ -25,9 +25,7 @@ public class Prontuario {
     @Lob // @Lob indica que o campo pode armazenar objetos grandes, ideal para textos longos.
     private String observacoes;
 
-    @JoinColumn
-
     @OneToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "consulta_id", referencedColumnName = "id", unique = true, nullable = false)
+    @JoinColumn(name = "consulta_id", referencedColumnName = "id", unique = true, nullable = true) // Alterado para true
     private Consulta consulta;
 }

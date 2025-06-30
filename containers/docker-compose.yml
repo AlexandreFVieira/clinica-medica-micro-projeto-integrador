@@ -1,7 +1,7 @@
 services:
   mysql:
     image: mysql:8.0
-    container_name: '\mysql-clinica
+    container_name: mysql-clinica
     environment:
       MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
       MYSQL_DATABASE: clinica_medica

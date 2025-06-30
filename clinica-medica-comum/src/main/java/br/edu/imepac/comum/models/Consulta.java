@@ -28,7 +28,6 @@ public class Consulta {
 
     private boolean estaAtiva;
 
-    @JoinColumn
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "medico_id", nullable = false)
