@@ -24,33 +24,6 @@
             <version>3.8.1</version>
             <scope>test</scope>
         </dependency>
-<<<<<<< HEAD
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-autoconfigure</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.data</groupId>
-            <artifactId>spring-data-jpa</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>br.edu.imepac</groupId>
-            <artifactId>clinica-medica-comum</artifactId>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-web</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-web</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-        </dependency>
-=======
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -84,7 +57,11 @@
             <groupId>org.modelmapper</groupId>
             <artifactId>modelmapper</artifactId>
         </dependency>
+        <dependency>
+            <groupId>br.edu.imepac</groupId>
+            <artifactId>clinica-medica-comum</artifactId>
+            <scope>compile</scope>
+        </dependency>
 
->>>>>>> origin/alexandre
     </dependencies>
 </project>

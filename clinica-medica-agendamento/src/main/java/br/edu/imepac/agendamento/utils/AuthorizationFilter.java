@@ -1,7 +1,7 @@
 package br.edu.imepac.agendamento.utils;
 
-import br.edu.imepac.administrativo.exception.ActionClinicaMedicaException;
-import br.edu.imepac.administrativo.exception.AuthenticationClinicaMedicaException;
+import br.edu.imepac.agendamento.exception.ActionClinicaMedicaException;
+import br.edu.imepac.agendamento.exception.AuthenticationClinicaMedicaException;
 import br.edu.imepac.comum.services.AutenticadorService;
 import br.edu.imepac.comum.services.AutorizadorService;
 import br.edu.imepac.comum.services.ProntuarioService;
