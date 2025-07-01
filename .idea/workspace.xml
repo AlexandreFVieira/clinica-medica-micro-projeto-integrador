@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bf63e5a7-e824-4912-afcd-e78d3351688e" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/clinica-medica-atendimento/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinica-medica-atendimento/src/test/java/org/example/AppTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/clinica-medica-atendimento/target/clinica-medica-atendimento-1.0-SNAPSHOT.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/clinica-medica-atendimento/target/maven-archiver/pom.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/clinica-medica-atendimento/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
@@ -14,6 +13,7 @@
       <change afterPath="$PROJECT_DIR$/clinica-medica-atendimento/target/surefire-reports/TEST-org.example.AppTest.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/clinica-medica-atendimento/target/surefire-reports/org.example.AppTest.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/clinica-medica-atendimento/target/test-classes/org/example/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +34,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -57,16 +61,19 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.ClinicaMedicaAdministrativoApp.executor": "Run",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "mergeteste",
     "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/ehf_v/projetos/clinica-medica/clinica-medica-administrativo/src/main/resources/application-local.properties",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.47586206",
     "settings.editor.selected.configurable": "File.Encoding",
@@ -104,23 +111,7 @@
       <command value="mvn clean install -U" />
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ClinicaMedicaAdministrativoApp">
-    <configuration name="EspecialidadeServiceTest.testAdicionarEspecialidade" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="clinica-medica-comum" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.edu.imepac.comum.services.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.edu.imepac.comum.services" />
-      <option name="MAIN_CLASS_NAME" value="br.edu.imepac.comum.services.EspecialidadeServiceTest" />
-      <option name="METHOD_NAME" value="testAdicionarEspecialidade" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.ClinicaMedicaAtendimentoApp">
     <configuration name="ClinicaMedicaAdministrativoApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="clinica-medica-administrativo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="br.edu.imepac.administrativo.ClinicaMedicaAdministrativoApp" />
@@ -145,6 +136,32 @@
         <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="clean install" />
       </method>
     </configuration>
+    <configuration name="ClinicaMedicaAgendamentoApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="clinica-medica-agendamento" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="br.edu.imepac.agendamento.ClinicaMedicaAgendamentoApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.edu.imepac.agendamento.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClinicaMedicaAtendimentoApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="clinica-medica-atendimento" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="br.edu.imepac.atendimento.utils.ClinicaMedicaAtendimentoApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.edu.imepac.atendimento.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
       <deployment type="docker-compose.yml">
         <settings />
@@ -160,14 +177,6 @@
             </list>
           </option>
           <option name="sourceFilePath" value="D:/Imepac/BACK/projeto/clinica-medica/clinica-administrativo/docker-compose.yml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
-    <configuration name="containers: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="sourceFilePath" value="containers/docker-compose.yml" />
         </settings>
       </deployment>
       <method v="2" />
@@ -188,17 +197,17 @@
     <list>
       <item itemvalue="Docker.containers.mysql: Compose Deployment" />
       <item itemvalue="Docker.clinica-administrativo.mysql: Compose Deployment" />
-      <item itemvalue="Docker.containers: Compose Deployment" />
-      <item itemvalue="JUnit.EspecialidadeServiceTest.testAdicionarEspecialidade" />
+      <item itemvalue="Spring Boot.ClinicaMedicaAgendamentoApp" />
+      <item itemvalue="Spring Boot.ClinicaMedicaAtendimentoApp" />
       <item itemvalue="Spring Boot.ClinicaMedicaAdministrativoApp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ClinicaMedicaAtendimentoApp" />
+        <item itemvalue="Spring Boot.ClinicaMedicaAgendamentoApp" />
         <item itemvalue="Spring Boot.ClinicaMedicaAdministrativoApp" />
         <item itemvalue="Docker.containers.mysql: Compose Deployment" />
         <item itemvalue="Docker.clinica-administrativo.mysql: Compose Deployment" />
-        <item itemvalue="JUnit.EspecialidadeServiceTest.testAdicionarEspecialidade" />
-        <item itemvalue="Docker.containers: Compose Deployment" />
       </list>
     </recent_temporary>
   </component>
@@ -249,6 +258,7 @@
       <workItem from="1750310635429" duration="18884000" />
       <workItem from="1750614669744" duration="3948000" />
       <workItem from="1750810414592" duration="10535000" />
+      <workItem from="1751336357347" duration="177000" />
     </task>
     <servers />
   </component>
