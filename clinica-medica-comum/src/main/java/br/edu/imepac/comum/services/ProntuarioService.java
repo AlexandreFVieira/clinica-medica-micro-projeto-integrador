@@ -18,7 +18,7 @@ public class ProntuarioService {
     private final ModelMapper modelMapper;
     private final ProntuarioRepository prontuarioRepository;
 
-    public ProntuarioService(@Qualifier("administrativoModelMapper") ModelMapper modelMapper, ProntuarioRepository prontuarioRepository) {
+    public ProntuarioService(ModelMapper modelMapper, ProntuarioRepository prontuarioRepository) {
         this.modelMapper = modelMapper;
         this.prontuarioRepository = prontuarioRepository;
     }

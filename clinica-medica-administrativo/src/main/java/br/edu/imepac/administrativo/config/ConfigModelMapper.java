@@ -18,7 +18,7 @@ public class ConfigModelMapper {
      *
      * @return Uma nova instância de `ModelMapper`.
      */
-    @Bean("administrativoModelMapper")
+    @Bean
     public ModelMapper modelMapper() {
         return new ModelMapper();
     }

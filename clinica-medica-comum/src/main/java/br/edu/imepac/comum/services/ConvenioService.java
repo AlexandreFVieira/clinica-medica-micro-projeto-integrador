@@ -19,7 +19,7 @@ public class ConvenioService {
     private final ModelMapper modelMapper;
     private final ConvenioRepository convenioRepository;
 
-    public ConvenioService(@Qualifier("administrativoModelMapper") ModelMapper modelMapper, ConvenioRepository convenioRepository) {
+    public ConvenioService(ModelMapper modelMapper, ConvenioRepository convenioRepository) {
         this.modelMapper = modelMapper;
         this.convenioRepository = convenioRepository;
     }
