@@ -7,6 +7,7 @@ import br.edu.imepac.comum.models.Prontuario;
 import br.edu.imepac.comum.repositories.ProntuarioRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.modelmapper.ModelMapper;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -17,7 +18,7 @@ public class ProntuarioService {
     private final ModelMapper modelMapper;
     private final ProntuarioRepository prontuarioRepository;
 
-    public ProntuarioService(ModelMapper modelMapper, ProntuarioRepository prontuarioRepository) {
+    public ProntuarioService(@Qualifier("administrativoModelMapper") ModelMapper modelMapper, ProntuarioRepository prontuarioRepository) {
         this.modelMapper = modelMapper;
         this.prontuarioRepository = prontuarioRepository;
     }
