@@ -22,37 +22,35 @@ public class ConvenioController {
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
     public ConvenioDto criarConvenio(@RequestBody ConvenioRequest convenioRequest) {
-        log.info("Criando um convenio - controller: {}", convenioRequest);
+        log.info("Criando um convênio - controller: {}", convenioRequest);
         return convenioService.criarConvenio(convenioRequest);
     }
 
     @PutMapping("/{id}")
     @ResponseStatus(HttpStatus.OK)
     public ConvenioDto atualizarConvenio(@PathVariable Long id, @RequestBody ConvenioDto convenioDto) {
-        log.info("Atualizar convenio - controller: {}", convenioDto);
+        log.info("Atualizando convênio - controller: {}", convenioDto);
         return convenioService.atualizarConvenio(id, convenioDto);
     }
 
     @DeleteMapping("/{id}")
     @ResponseStatus(HttpStatus.NO_CONTENT)
-    public void excluirConvenio(@PathVariable Long id){
-        log.info("Excluino convenio - controller: {}", id);
+    public void excluirConvenio(@PathVariable Long id) {
+        log.info("Excluindo convênio - controller: {}", id);
         convenioService.excluirConvenio(id);
     }
 
     @GetMapping("/{id}")
     @ResponseStatus(HttpStatus.OK)
-    public ConvenioDto buscarConvenioPorId(@PathVariable Long id){
-        log.info("Buscando um convenio - controller: {}", id);
+    public ConvenioDto buscarConvenioPorId(@PathVariable Long id) {
+        log.info("Buscando um convênio - controller: {}", id);
         return convenioService.buscarConvenioPorId(id);
     }
 
     @GetMapping("/listar")
     @ResponseStatus(HttpStatus.OK)
-    public List<ConvenioDto> listarConvenio(){
-        log.info("Listar Convenio - controller");
+    public List<ConvenioDto> listarConvenio() {
+        log.info("Listando Convênios - controller");
         return convenioService.listarConvenio();
     }
-
-
 }

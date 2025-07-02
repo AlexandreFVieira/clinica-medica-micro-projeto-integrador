@@ -4,15 +4,11 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.time.LocalDateTime;
-
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 public class ConvenioDto {
     private Long id;
-    private LocalDateTime dataHorario;
-    private String sintomas;
-    private Boolean eRetorno;
-    private Boolean estaAtiva;
+    private String nome;
+    private String descricao;
 }

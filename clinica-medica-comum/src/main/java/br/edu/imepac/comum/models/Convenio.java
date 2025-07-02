@@ -6,8 +6,6 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.time.LocalDateTime;
-
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
@@ -18,8 +16,12 @@ public class Convenio {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private LocalDateTime dataHorario;
-    private String sintomas;
-    private Boolean eRetorno;
-    private Boolean estaAtiva;
+
+    @NotBlank(message = "O nome do convênio é obrigatório.")
+    @Column(nullable = false)
+    private String nome;
+
+    @NotBlank(message = "A descrição do convênio é obrigatória.")
+    @Column(nullable = false)
+    private String descricao;
 }
